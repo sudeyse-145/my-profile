@@ -1,28 +1,16 @@
-🚀 Personal Portfolio Website
-Welcome to the repository for my professional portfolio. This site serves as a central hub to showcase my full-stack development projects, technical skills, and professional journey.
+# React + Vite
 
-🔗 Live Demo
-Click here to view my live portfolio (Replace the text in the brackets with your actual website URL once it is hosted!)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🛠️ Tech Stack
-This portfolio was built using:
+Currently, two official plugins are available:
 
-Frontend: HTML5, CSS3, and JavaScript/TypeScript.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Architecture: Responsive design to ensure it looks great on mobile, tablet, and desktop.
+## React Compiler
 
-Deployment: Hosted via [Vercel/Netlify/GitHub Pages].
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-📂 Featured Projects
-Inside this portfolio, you will find links to my major works, including:
+## Expanding the ESLint configuration
 
-QR Code Generator & Reader: A full-stack social link sharing mobile app.
-
-Bus Tracking System: A real-time tracking solution with backend integration.
-
-Online Pharmacy System: A comprehensive web application with PostgreSQL database management.
-
-📫 Contact Me
-GitHub: sudeyse-145
-
-Email: sudeyse145@gmail.com
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
