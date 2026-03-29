@@ -48,19 +48,21 @@ const Contact = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          onSubmit={(e) => e.preventDefault()}
+          action="https://formsubmit.co/sudeyse145@gmail.com"
+          method="POST"
         >
+          <input type="hidden" name="_captcha" value="false" />
           <div className="form-group">
-            <input type="text" placeholder="Your Name" required className="form-control" />
+            <input type="text" name="name" placeholder="Your Name" required className="form-control" />
           </div>
           <div className="form-group">
-            <input type="email" placeholder="Email Address" required className="form-control" />
+            <input type="email" name="email" placeholder="Email Address" required className="form-control" />
           </div>
           <div className="form-group">
-            <input type="text" placeholder="Subject" required className="form-control" />
+            <input type="text" name="_subject" placeholder="Subject" required className="form-control" />
           </div>
           <div className="form-group">
-            <textarea placeholder="Message" required className="form-control" rows={5}></textarea>
+            <textarea name="message" placeholder="Message" required className="form-control" rows={5}></textarea>
           </div>
           <button type="submit" className="btn btn-primary submit-btn">
             <FiSend /> Send Message

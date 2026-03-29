@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
+import resumePDF from '../assets/resume.pdf';
 
 const Header = () => {
   const { theme, toggleTheme } = useTheme();
@@ -42,7 +43,7 @@ const Header = () => {
             <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle Theme">
               {theme === 'dark' ? <FiSun size={20} /> : <FiMoon size={20} />}
             </button>
-            <a href="/resume.pdf" className="btn btn-outline resume-btn" target="_blank" rel="noreferrer">
+            <a href={resumePDF} className="btn btn-outline resume-btn" target="_blank" rel="noreferrer">
               Resume
             </a>
           </div>

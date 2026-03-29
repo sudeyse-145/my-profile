@@ -42,7 +42,9 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="greeting"
         >
-          Hello, I'm
+          <h1>
+          Hello, I'm Sudeyse Yusuf
+          </h1>
         </motion.h4>
         <motion.h1 
           initial={{ opacity: 0, scale: 0.9 }}

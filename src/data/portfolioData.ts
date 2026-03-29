@@ -27,10 +27,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Qr-code generator and scanner',
-    description: 'A responsive chat interface interacting with AI models.',
-    tags: ['React', 'OpenAI API', 'Tailwind'],
-    github: '#',
+    title: 'online Pharmacy system',
+    description: 'Developing an online pharmacy system that allows users to search for medicines—especially hard-to-find or rare ones—and identify nearby locations where they are available. Planned future enhancements include enabling users to place orders directly through the platform.',
+    tags: ['React', 'javascript', 'Node.js', 'PostgreSQL'],
+    github: 'https://github.com/sudeyse-145/Ethio-pharmacy.git',
     live: '#',
     image: 'https://via.placeholder.com/400x250/161b22/39c5cf?text=AI+Chat'
   }
