@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="footer-social">
           <a href="https://github.com/sudeyse-145" className="social-link" aria-label="GitHub"><FiGithub size={20} /></a>
           <a href="https://www.linkedin.com/in/sudeyse-yusuf-13553a3bb/" className="social-link" aria-label="LinkedIn"><FiLinkedin size={20} /></a>
-          <a href="#" className="social-link" aria-label="Twitter"><FiTwitter size={20} /></a>
+          <a href="https://x.com/gray_points" className="social-link" aria-label="Twitter"><FiTwitter size={20} /></a>
         </div>
       </div>
       
